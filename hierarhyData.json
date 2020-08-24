@@ -1,0 +1,387 @@
+{
+	"code": 6,
+	"message": "SUCCESS",
+	"content": [{
+			"moduleId": 1010,
+			"moduleType": null,
+			"moduleName": "Device",
+			"moduleDescription": null,
+			"isModuleActive": "Y",
+			"noOfSections": 3,
+			"modSecMasterTxDtos": [{
+					"sectionId": 10013,
+					"sectionName": "Distribution",
+					"noOfTiles": 2,
+					"isSectionActive": "Y",
+					"moduleMasterDto": null,
+					"secTilesMasterTxDtos": [{
+							"tileId": 1000034,
+							"tileName": "Chain",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/device-distribution-retailer",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/device-dist-ret-csv"
+						},
+						{
+							"tileId": 1000035,
+							"tileName": "Stores",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/device-distribution-pref-retailer",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/device-dist-pref-ret-csv"
+						}
+					]
+				},
+				{
+					"sectionId": 10014,
+					"sectionName": "Sales",
+					"noOfTiles": 4,
+					"isSectionActive": "Y",
+					"moduleMasterDto": null,
+					"secTilesMasterTxDtos": [{
+							"tileId": 1000038,
+							"tileName": "Sell out",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/device-sales-sellout",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/device-sales-sellout-csv"
+						},
+						{
+							"tileId": 1000036,
+							"tileName": "Primary sales",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/device-sales-primary",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/device-sales-primary-csv"
+						},
+						{
+							"tileId": 1000037,
+							"tileName": "Tertiary sales(MT Chain)",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/device-sales-tertiary",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/device-sales-tertiary-csv"
+						},
+						{
+							"tileId": 1000039,
+							"tileName": "IMEI Activation",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/device-sales-activation",
+							"isCsvActive": "N",
+							"csvEndPointUrl": null
+						}
+					]
+				},
+				{
+					"sectionId": 10015,
+					"sectionName": "Stock",
+					"noOfTiles": 3,
+					"isSectionActive": "Y",
+					"moduleMasterDto": null,
+					"secTilesMasterTxDtos": [{
+							"tileId": 1000040,
+							"tileName": "Stock-ZD",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/device-stock-zd",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/device-stock-zd-csv"
+						},
+						{
+							"tileId": 1000041,
+							"tileName": "Stock-RDS",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/device-stock-rds",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/device-stock-rds-csv"
+						},
+						{
+							"tileId": 1000042,
+							"tileName": "Stock-Retailer",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/device-stock-retailer",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/device-stock-ret-csv"
+						}
+					]
+				}
+			],
+			"partnerRoleType": "757",
+			"parentRoleType": null,
+			"partnerRoleName": "ZD Modern Trade",
+			"parentRoleName": null
+		},
+		{
+			"moduleId": 2010,
+			"moduleType": null,
+			"moduleName": "Activation",
+			"moduleDescription": null,
+			"isModuleActive": "Y",
+			"noOfSections": 3,
+			"modSecMasterTxDtos": [{
+					"sectionId": 20013,
+					"sectionName": "Distribution",
+					"noOfTiles": 2,
+					"isSectionActive": "Y",
+					"moduleMasterDto": null,
+					"secTilesMasterTxDtos": [{
+							"tileId": 2000041,
+							"tileName": "Chain",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/activation-distribution-retailer",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/activation-dist-ret-csv"
+						},
+						{
+							"tileId": 2000042,
+							"tileName": "Stores",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/activation-distribution-pref-retailer",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/activation-dist-pref-ret-csv"
+						}
+					]
+				},
+				{
+					"sectionId": 20014,
+					"sectionName": "Sim Billing",
+					"noOfTiles": 3,
+					"isSectionActive": "Y",
+					"moduleMasterDto": null,
+					"secTilesMasterTxDtos": [{
+							"tileId": 2000045,
+							"tileName": "Tertiary",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/activation-sim-billing-tertiary",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/activation-sim-billing-tertiary-csv"
+						},
+						{
+							"tileId": 2000044,
+							"tileName": "Secondary",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/activation-sim-billing-secondary",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/activation-sim-billing-secondary-csv"
+						},
+						{
+							"tileId": 2000043,
+							"tileName": "Primary",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/activation-sim-billing-primary",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/activation-sim-billing-primary-csv"
+						}
+					]
+				},
+				{
+					"sectionId": 20015,
+					"sectionName": "MDN Sim Connectivity",
+					"noOfTiles": 5,
+					"isSectionActive": "Y",
+					"moduleMasterDto": null,
+					"secTilesMasterTxDtos": [{
+							"tileId": 2000046,
+							"tileName": "Sim Activation",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/activation-mdn-simcon-activation",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/activation-mdn-simcon-activation-csv"
+						},
+						{
+							"tileId": 2000048,
+							"tileName": "TOP5",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/activation-mdn-simcon-top5",
+							"isCsvActive": "N",
+							"csvEndPointUrl": null
+						},
+						{
+							"tileId": 2000049,
+							"tileName": "BOT5",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/activation-mdn-simcon-bot5",
+							"isCsvActive": "N",
+							"csvEndPointUrl": null
+						},
+						{
+							"tileId": 2000050,
+							"tileName": "Last7Day",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/activation-mdn-simcon-last7day",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/activation-mdn-simcon-last7day-csv"
+						},
+						{
+							"tileId": 2000047,
+							"tileName": "DAO",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/activation-mdn-simcon-dao",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/activation-mdn-simcon-dao-csv"
+						}
+					]
+				}
+			],
+			"partnerRoleType": "757",
+			"parentRoleType": null,
+			"partnerRoleName": "ZD Modern Trade",
+			"parentRoleName": null
+		},
+		{
+			"moduleId": 3010,
+			"moduleType": null,
+			"moduleName": "Recharge Sales",
+			"moduleDescription": null,
+			"isModuleActive": "Y",
+			"noOfSections": 3,
+			"modSecMasterTxDtos": [{
+					"sectionId": 30013,
+					"sectionName": "Distribution",
+					"noOfTiles": 2,
+					"isSectionActive": "Y",
+					"moduleMasterDto": null,
+					"secTilesMasterTxDtos": [{
+							"tileId": 3000041,
+							"tileName": "MT Chain",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/recharge-distribution-retailer",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/recharge-dist-ret-csv"
+						},
+						{
+							"tileId": 3000042,
+							"tileName": "Recharging Chains",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/recharge-distribution-recharge-retailer",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/recharge-dist-rech-ret-csv"
+						}
+					]
+				},
+				{
+					"sectionId": 30014,
+					"sectionName": "Sales",
+					"noOfTiles": 3,
+					"isSectionActive": "Y",
+					"moduleMasterDto": null,
+					"secTilesMasterTxDtos": [{
+							"tileId": 3000045,
+							"tileName": "Secondary sales",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/recharge-sales-secondary",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/recharge-sales-secondary-csv"
+						},
+						{
+							"tileId": 3000044,
+							"tileName": "Primary sales",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/recharge-sales-primary",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/recharge-sales-primary-csv"
+						},
+						{
+							"tileId": 3000046,
+							"tileName": "Sell out",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/recharge-sales-sellout",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/recharge-sales-sellout-csv"
+						}
+					]
+				},
+				{
+					"sectionId": 30015,
+					"sectionName": "Other",
+					"noOfTiles": 4,
+					"isSectionActive": "Y",
+					"moduleMasterDto": null,
+					"secTilesMasterTxDtos": [{
+							"tileId": 3000047,
+							"tileName": "Last 7 Days",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/recharge-last-7-days",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/recharge-last-7-days-csv"
+						},
+						{
+							"tileId": 3000048,
+							"tileName": "Recharge Wallet Balance",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/recharge-wallet-balance",
+							"isCsvActive": "Y",
+							"csvEndPointUrl": "/recharge-wallet-balance-csv"
+						},
+						{
+							"tileId": 3000049,
+							"tileName": "Top 5",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/recharge-other-top5",
+							"isCsvActive": "N",
+							"csvEndPointUrl": null
+						},
+						{
+							"tileId": 3000050,
+							"tileName": "Bot 5",
+							"isTileActive": "Y",
+							"tileEndPointUrl": "/recharge-other-bot5",
+							"isCsvActive": "N",
+							"csvEndPointUrl": null
+						}
+					]
+				}
+			],
+			"partnerRoleType": "757",
+			"parentRoleType": null,
+			"partnerRoleName": "ZD Modern Trade",
+			"parentRoleName": null
+		},
+		{
+			"moduleId": 4010,
+			"moduleType": null,
+			"moduleName": "Device Payout",
+			"moduleDescription": null,
+			"isModuleActive": "Y",
+			"noOfSections": 1,
+			"modSecMasterTxDtos": [{
+				"sectionId": 40005,
+				"sectionName": "Payout",
+				"noOfTiles": 2,
+				"isSectionActive": "Y",
+				"moduleMasterDto": null,
+				"secTilesMasterTxDtos": [{
+						"tileId": 4000009,
+						"tileName": "Qty (MSISDN Wise Details)",
+						"isTileActive": "Y",
+						"tileEndPointUrl": "/device-payout-qty",
+						"isCsvActive": "Y",
+						"csvEndPointUrl": "/device-payout-header-csv"
+					},
+					{
+						"tileId": 4000010,
+						"tileName": "Payout (Day Wise Payout Summary)",
+						"isTileActive": "Y",
+						"tileEndPointUrl": "/device-payout-payouts",
+						"isCsvActive": "Y",
+						"csvEndPointUrl": "/device-payout-item-csv"
+					}
+				]
+			}],
+			"partnerRoleType": "757",
+			"parentRoleType": null,
+			"partnerRoleName": "ZD Modern Trade",
+			"parentRoleName": null
+		}
+	],
+	"responseDetail": {
+		"errorDetail": [],
+		"warningDetail": [],
+		"validationDetail": [],
+		"infoDetail": [],
+		"successDetail": [{
+			"fieldName": "id",
+			"message": "Information fetched successfully",
+			"code": "6001"
+		}]
+	}
+}
